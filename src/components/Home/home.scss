@@ -1,0 +1,17 @@
+.Home {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+    
+    .homeCard {
+    width: 450px;
+    height: 250px;
+    border: 3px solid white;
+    margin-top: 10rem;
+    font-size: 40px;
+    border-radius: 1rem;
+    }
+}
