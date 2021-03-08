@@ -21,9 +21,10 @@ export default function App() {
             <button><Link to="/play">Play Anonymously</Link></button>
           </nav>
 
-          <Switch>
+                   <Switch>
             <Route path="/play">
               <CardGame />
+            </Route>
             <Route path="/">
               <Home />
             </Route>
