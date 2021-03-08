@@ -10,7 +10,6 @@ import './App.scss';
 
 import CardGame from './components/CardGame/CardGame';
 import Home from './components/Home/Home';
-import Result from './components/Result/Result';
 
 export default function App() {
   return (
@@ -25,10 +24,6 @@ export default function App() {
           <Switch>
             <Route path="/play">
               <CardGame />
-            </Route>
-            <Route path="/result">
-              <Result />
-            </Route>
             <Route path="/">
               <Home />
             </Route>
